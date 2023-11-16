@@ -7,23 +7,5 @@ pipeline {
                 checkout scm
             }
         }
-
-        stage('Build') {
-            steps {
-                // Add your build commands here
-            }
-        }
-
-        stage('Test') {
-            steps {
-                // Add your test commands here
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                // Add your deployment commands here
-            }
-        }
     }
 }
