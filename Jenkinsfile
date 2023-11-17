@@ -7,5 +7,15 @@ pipeline {
                 checkout scm
             }
         }
+        stage('Build') {
+            steps {
+                ls
+            }
+        }
+        stage('Test') {
+            steps {
+                ls
+            }
+        }
     }
 }
