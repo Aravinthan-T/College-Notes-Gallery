@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                ls
+                echo 'Build Sucessfull'
             }
         }
         stage('Test') {
             steps {
-                ls
+                echo 'Test Success'
             }
         }
     }
